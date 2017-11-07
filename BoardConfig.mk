@@ -13,21 +13,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from common klte
--include device/samsung/klte-common/BoardConfigCommon.mk
+# inherit from common hlte
+-include device/samsung/hlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := kltexx,klte,klteduos
+TARGET_OTA_ASSERT_DEVICE := hlte,h3gduoszn
 
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 AUDIO_FEATURE_SAMSUNG_DUAL_SIM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_klteduos_defconfig
+TARGET_KERNEL_CONFIG := lineage_h3gduoszn_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm8974
-TARGET_LIBINIT_MSM8974_DEFINES_FILE := device/samsung/klteduos/init/init_klte.cpp
+TARGET_LIBINIT_MSM8974_DEFINES_FILE := device/samsung/h3gduoszn/init/init_hlte.cpp
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
@@ -40,4 +40,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2411724800
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12984479744 # 12984496128 - 16384
 
 # inherit from the proprietary version
--include vendor/samsung/klteduos/BoardConfigVendor.mk
+-include vendor/samsung/h3gduoszn/BoardConfigVendor.mk

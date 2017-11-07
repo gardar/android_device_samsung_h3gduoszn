@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),klteduos)
+ifeq ($(TARGET_DEVICE),h3gduoszn)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

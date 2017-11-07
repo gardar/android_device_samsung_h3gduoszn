@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/klteduos/klteduos-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/h3gduoszn/h3gduoszn-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -40,5 +40,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/configs/nfcee_access.xml:system/etc/nfcee_access.xml
 
-# common klte
-$(call inherit-product, device/samsung/klte-common/klte.mk)
+# common hlte
+$(call inherit-product, device/samsung/hlte-common/hlte.mk)

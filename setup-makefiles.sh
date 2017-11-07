@@ -17,8 +17,8 @@
 
 set -e
 
-export DEVICE=klteduos
-export DEVICE_COMMON=klte-common
+export DEVICE=h3gduoszn
+export DEVICE_COMMON=hlte-common
 export VENDOR=samsung
 
 ./../$DEVICE_COMMON/setup-makefiles.sh $@

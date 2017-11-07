@@ -2,23 +2,23 @@ Copyright 2015 - The CyanogenMod Project
 
 Copyright 2017 - The LineageOS Project
 
-Device configuration for Samsung Galaxy S5 Dual-SIM variants (SM-G900FD, SM-G900MD).
+Device configuration for Samsung Galaxy Note 3 Dual-SIM variant (SM-N9002).
 ========================================
 
 Basic   | Specification List
 -------:|:-------------------------
-CPU     | Quad-core 2.5 GHz Krait 400
-Chipset | Qualcomm MSM8974AC Snapdragon 801
+CPU     | Quad-core 2.3 GHz Krait 400
+Chipset | Qualcomm MSM8974AB Snapdragon 800
 GPU     | Adreno 330
-Memory  | 2 GB
+Memory  | 3 GB
 Shipped Android Version | 4.4.2
-Storage | 16/32 GB
-MicroSD | Up to 256 GB
-Battery | Removable Li-Ion 2800 mAh
-Dimensions | 142 x 72.5 x 8.1 mm (5.59 x 2.85 x 0.32 in)
-Display | 1080 x 1920 pixels, 5.1"
-Rear Camera  | 16 MP, f/2.2, 31mm, phase detection autofocus, LED flash
-Front Camera | 2 MP, f/2.4, 22mm
-Release Date | June 2014
+Storage | 16/32/64 GB
+MicroSD | Up to 64 GB
+Battery | Removable Li-Ion 3200 mAh
+Dimensions | 151.2 x 79.2 x 8.3 mm (5.95 x 3.12 x 0.33 in)
+Display | 1080 x 1920 pixels, 5.7"
+Rear Camera  | 13 MP, f/2.2, 31mm, autofocus, LED flash
+Front Camera | 2 MP, f/2.4, 27mm
+Release Date | September 2013
 
-![Galaxy S5](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s5-g900f-1.jpg "Galaxy S5")
+![Note 3](https://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note-3-1.jpg"Note 3")

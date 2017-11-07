@@ -21,4 +21,4 @@ Rear Camera  | 13 MP, f/2.2, 31mm, autofocus, LED flash
 Front Camera | 2 MP, f/2.4, 27mm
 Release Date | September 2013
 
-![Note 3](https://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note-3-1.jpg"Note 3")
+![Note 3](https://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note-3-1.jpg "Note 3")

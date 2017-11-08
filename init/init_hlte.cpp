@@ -40,8 +40,8 @@
 
 void gsm_properties()
 {
-    property_set("telephony.lteOnGsmDevice", "1");
-    property_set("ro.telephony.default_network", "9");
+    property_set("telephony.lteOnGsmDevice", "0");
+    property_set("ro.telephony.default_network", "3");
 }
 
 void init_target_properties()
@@ -53,7 +53,7 @@ void init_target_properties()
     std::string bootloader = property_get("ro.bootloader");
 
     if (bootloader.find("N9002") == 0) {
-        /* klteduosxx */
+        /* h3gduoszn */
         property_override("ro.build.fingerprint", "samsung/h3gduoszn/hlte:5.0/LRX21V/N9002ZNSGQA1:user/release-keys");
         property_override("ro.build.description", "h3gduoszn-user 5.0 LRX21V N9002ZNSGQA1 release-keys");
         property_override("ro.product.model", "SM-N9002");
